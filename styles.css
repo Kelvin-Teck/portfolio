@@ -305,7 +305,7 @@ nav .right a span {
 .education-section .group {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   gap: 2rem;
   flex-wrap: wrap;
 }
@@ -316,6 +316,11 @@ nav .right a span {
   flex: 3;
   padding: 3rem 2rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.education-section .group > div .degree{
+  font-size: 14px;
+  margin: .5rem 0 0 0 ;
 }
 
 .education-section .group > div:hover {
@@ -521,6 +526,10 @@ nav .right a span {
 
   .hero-section .text .links > a {
     font-size: 20px;
+  }
+
+  .footer-section > div:nth-child(2){
+    font-size: 12px;
   }
 }
 
