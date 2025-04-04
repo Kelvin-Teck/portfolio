@@ -299,6 +299,22 @@ nav .right a span {
 
 .education-section h2 {
   font-size: 35px;
+  margin: 0 0 2rem 0;
+}
+
+.education-section .group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.education-section .group > div {
+  border: 2px solid #d3d3d3;
+  border-radius: 5px;
+  flex: 3;
+  padding: 3rem 2rem;
 }
 /* Contact */
 
@@ -362,6 +378,29 @@ nav .right a span {
   .hero-section .text h2 {
     font-size: 35px;
   }
+
+  /* Education */
+  .education-section .group > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .education-section .group > div span{
+    align-self: center;
+  }
+
+  .education-section .group > div span i{
+    font-size: 30px;
+  }
+
+
+  .education-section .group > div span .institution{
+    align-self: flex-start;
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 740px) {
@@ -408,6 +447,8 @@ nav .right a span {
   .hero-section .text h2 {
     font-size: 30px;
   }
+
+  /* contact */
 
   .contact-section {
     padding: 0 20px;
