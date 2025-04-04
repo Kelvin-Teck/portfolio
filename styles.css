@@ -409,12 +409,21 @@ nav .right a span {
     font-size: 35px;
     flex-direction: column-reverse;
   }
+
+    .hero-section .text p{
+    font-size: 20px ;
+  }
+
   .hero-section .potrait-image img {
     width: 300px;
   }
 
   .contact-section .group {
     flex-direction: column;
+  }
+
+  .hero-section .text .links > a {
+font-size: 20px;
   }
 }
 
@@ -451,6 +460,17 @@ nav .right a span {
   .hero-section .text p{
     font-size:18px ;
   }
+
+  /* .hero-section .text .links {
+display: flex;
+flex-wrap: wrap;
+gap: 0.5rem;
+justify-content: space-between;
+  }
+
+.hero-section .text .links > a{
+  flex: 4;
+} */
 
   /* contact */
 
