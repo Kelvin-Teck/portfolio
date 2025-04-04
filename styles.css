@@ -448,6 +448,10 @@ nav .right a span {
     font-size: 30px;
   }
 
+  .hero-section .text p{
+    font-size:18px ;
+  }
+
   /* contact */
 
   .contact-section {
